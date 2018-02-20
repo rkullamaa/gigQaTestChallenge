@@ -13,6 +13,7 @@ dependecies for html reporting and few extra pits and pieces.
 cd gigQaTestChallenge
 npm install
 ```
+Have protractor installed and webdriver-manager running
 Run proctractor command to execute conf.js file
 
 ```js
@@ -84,7 +85,7 @@ When I visit "Your History" section
 Then Only last 8 rewards(tokens) will be displayed
 
 Scenario: MakeMoneyFast is viewing rewards details
-Give I have rewards(tokens) in Freebies Vault Section
+Given I have rewards(tokens) in Freebies Vault Section
 When I hover mouse over reward thumbnail
 Then I can see the name of the reward as a pop-over
 ```

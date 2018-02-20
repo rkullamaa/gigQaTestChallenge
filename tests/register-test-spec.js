@@ -1,13 +1,13 @@
 describe('Kaboo registration form', function(){
 //Decaling variables
-    var username = 'carlosZXC';
+    var username = 'hectorBarbosa';
     var pswd = 'WinBig2018';
     var pswdR = 'WinBig2018';
-    var email = 'carlosZXC1@gmefail.com';
+    var email = 'hector.barbosa@carribiean.com';
     var registerPage = require('../pages/register.js');
     var loginPage = require('../pages/login.js');
-    var fName = 'gsdf';
-    var lName = 'Sebadfgdfgstian';
+    var fName = 'Hector';
+    var lName = 'Barbosa';
     var bday = '12';
     var bmonth = '2';
     var byear = '1987';
